@@ -1,6 +1,6 @@
 # DeepImageSearch
 ---
-**NOTE: Project has been upgraded and moved to: [Distributed Deep Image Search Engine](https://github.com/Distributed-Deep-Image-Search-Engine)**
+**NOTE: Project has been upgraded and moved to: [Distributed Deep Image Search Engine](https://github.com/Distributed-Deep-Image-Search-Engine)**  
 Large-scale Image Retrieval System powered by Hierarchical Deep Hashing and Deep Ranking to enable fine-grain search
 ___
 
