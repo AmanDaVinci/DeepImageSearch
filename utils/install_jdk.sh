@@ -1,15 +1,15 @@
 #!/bin/sh
 
-echo "\tInstalling jdk..."
+echo "\tINSTALLING JDK..."
 echo "\tNote: Must have jdk tarball in the current directory"
 
-tar -xvf jdk-7*
-sudo mkdir /usr/lib/jvm
-sudo mv ./jdk1.7* /usr/lib/jvm/jdk1.7.0
+tar -xvf jdk*
+sudo mkdir -p /usr/lib/jvm
+sudo mv ./jdk-9.0.4 /usr/lib/jvm/
 
-sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.7.0/bin/java" 1
-sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk1.7.0/bin/javac" 1
-sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/jvm/jdk1.7.0/bin/javaws" 1
+sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-9.0.4/bin/java" 1
+sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk-9.0.4/bin/javac" 1
+sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/jvm/jdk-9.0.4/bin/javaws" 1
 
 sudo chmod a+x /usr/bin/java
 sudo chmod a+x /usr/bin/javac
