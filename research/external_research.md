@@ -10,4 +10,9 @@
 - [Elasticsearch vs. Hadoop For Advanced Analytics](https://blog.treasuredata.com/blog/2015/08/31/hadoop-vs-elasticsearch-for-advanced-analytics/)
 - [Deep Hashing](http://cs.unc.edu/~zhenni/blog/notes/Deep%20Hashing.html)
 
+## Datasets
+
+http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html
+
+
 ## Misc
